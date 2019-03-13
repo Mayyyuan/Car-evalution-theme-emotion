@@ -2,9 +2,10 @@
 Analyze themes and emotions through user's evaluation of the car
   
   model:
-    CNN
+    CNN;
+    
   included：
-    word2vector
-    shuffle
-    dictionary generalization
-    Multi-target recognition
+    word2vector, 
+    shuffle, 
+    dictionary generalization, 
+    Multi-target recognition;
