@@ -19,17 +19,19 @@
 **数据说明：**
 
 （1）训练数据： 训练数据为CSV格式，以英文半角逗号分隔，首行为表头。
-训练集数据中主题被分为10类，包括：动力、价格、内饰、配置、安全性、外观、操控、油耗、空间、舒适性。
 
-情感分为3类，分别用数字0、1、-1表示中立、正向、负向。
+· 训练集数据中主题被分为10类，包括：动力、价格、内饰、配置、安全性、外观、操控、油耗、空间、舒适性。
 
-content_id与content一一对应，但同一条content中可能会包含多个主题，此时出现多条记录标注不同的主题及情感，因此在整个训练集中content_id存在重复值。其中content_id，content，subject，sentiment_value对应字段不能为空且顺序不可更改，否则提交失败。
+· 情感分为3类，分别用数字0、1、-1表示中立、正向、负向。
 
-仅小部分训练数据包含有情感词sentiment_word，大部分为空，情感词不作为评分依据。
+· content_id与content一一对应，但同一条content中可能会包含多个主题，此时出现多条记录标注不同的主题及情感，因此在整个训练集中content_id存在重复值。其中content_id，content，subject，sentiment_value对应字段不能为空且顺序不可更改，否则提交失败。
 
-字段顺序为：content_id，content，subject，sentiment_value，sentiment_word
+· 仅小部分训练数据包含有情感词sentiment_word，大部分为空，情感词不作为评分依据。
+
+	字段顺序为：content_id，content，subject，sentiment_value，sentiment_word
 
 （2）测试数据：测试数据为CSV格式，首行为表头，字段为：
+		
 	content_id，content
       
 
