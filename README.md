@@ -1,5 +1,7 @@
 # Car evalution-Theme&emotion
-CCF 2018: Analyze themes and emotions through user's evaluation of the car.
+CCF 2018: 
+	
+	Analyze themes and emotions through user's evaluation of the car.
 
   data:
       
@@ -10,7 +12,8 @@ CCF 2018: Analyze themes and emotions through user's evaluation of the car.
           -1,0,1.
       
   model:
-    CNN;
+    
+	CNN;
     
   included：
     
@@ -22,13 +25,10 @@ CCF 2018: Analyze themes and emotions through user's evaluation of the car.
     
     Multi-target recognition;
    
-  main file: You can train and predict by running this file.
-  
-  util file: This file customizes a number of called functions,
-             including data processing functions, vocabulary generalization functions, etc.
-  
-  model file: This file is used to configure the network architecture.
-  
-  F1-socre file: This file is used to define F1-score, which is calculated according to the requirements of the competition.
-  
-  val file: This file is used to convert the validation set file.
+  code file:
+
+  	main file: You can train and predict by running this file.
+  	util file: This file customizes a number of called functions,including data processing functions, vocabulary generalization functions, etc.
+  	model file: This file is used to configure the network architecture.
+  	F1-socre file: This file is used to define F1-score, which is calculated according to the requirements of the competition.
+  	val file: This file is used to convert the validation set file.
